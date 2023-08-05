@@ -1,0 +1,8 @@
+{
+  "name": "Yunzai-Bot-Web-Docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/SouthernDreamS6/Yunzai-Bot-Web-Docs.git",
+  "author": "南梦故间 <SouthernDream@aurorb.cn>",
+  "license": "MIT"
+}
