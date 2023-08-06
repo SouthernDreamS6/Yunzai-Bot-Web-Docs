@@ -5,14 +5,20 @@ export const zhSidebar = sidebar({
     "",
     {
       text: "快速上手",
-      icon: "laptop-code",
+      icon: "",
       prefix: "demo/",
       link: "demo/",
-      children: "structure",
+      children: [
+        {
+          text: "快速了解Yunzai机器人",
+          icon: "",
+          link: "About-Yunzai.md",
+        },
+      ]
     },
     {
       text: "文档",
-      icon: "book",
+      icon: "",
       prefix: "guide/",
       children: "structure",
     },

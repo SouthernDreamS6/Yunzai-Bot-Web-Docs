@@ -1,9 +1,11 @@
+//  从 vuepress 导入 defineUserConfig 并包裹配置对象
 import { defineUserConfig } from "vuepress";
+// 在这里引入了主题
 import theme from "./theme.js";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
-import { hopeTheme } from "vuepress-theme-hope";
 
 export default defineUserConfig({
+  // 此处放置配置
   base: "/",
 
   locales: {

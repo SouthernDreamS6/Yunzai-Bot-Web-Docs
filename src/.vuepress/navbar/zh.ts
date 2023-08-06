@@ -23,8 +23,15 @@ export const zhNavbar = navbar([
     ],
   },
   {
+    text: "打赏",
+    icon: "icon-hua",
+    icon: "qun",
+    link: "/demo/donate",
+  },
+  {
     text: "立即加群！",
-    icon: "book",
+    icon: "icon-qun",
+    icon: "qun",
     link: "https://qm.qq.com/cgi-bin/qm/qr?k=bb3EshFima8HNooN5SuXHwDX6NUfrzT3&jump_from=webapi&authKey=Y4tY8Dgs6Lz88zGMPSqAp7aSkfUa8Vy1JFqT/Kry+/jpATMNt0xRcGD1/lZvmbTI",
   },
 ]);

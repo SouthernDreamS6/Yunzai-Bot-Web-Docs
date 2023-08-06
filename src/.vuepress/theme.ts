@@ -1,13 +1,16 @@
+//  将主题函数抽离到了 .vuepress/theme.js，并通过 export default 导出
 import { hopeTheme } from "vuepress-theme-hope";
 import { zhNavbar, enNavbar } from "./navbar/index.js";
 import { zhSidebar, enSidebar } from "./sidebar/index.js";
 
+// 默认导出了主题对象
 export default hopeTheme({
+  // 主题配置
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "SouthernDream",
+    url: "https://SouthernDream.aurorb.cn",
   },
 
   iconAssets: "fontawesome-with-brands",
@@ -17,6 +20,20 @@ export default hopeTheme({
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
   docsDir: "src",
+
+  //***icon图标设置 开始 */
+  // 设置图标资源 关键词: "iconfont", "iconify", "fontawesome", "fontawesome-with-brands"
+  iconAssets: "iconfont",
+
+  // 你想要的 URL
+  iconAssets: "https://at.alicdn.com/t/c/font_4199478_34iybjcd3an.css",
+
+  //  设置图标前缀
+  iconPrefix: "iconfont icon-<ICON-NAME>",
+  //***icon图标设置 结束 */
+
+  //  全屏按钮 true开启
+  fullscreen: true,
 
   locales: {
     /**

@@ -13,7 +13,7 @@ actions:
   - text: 快速上手
     link: ./demo/
     type: primary
-    icon: "lightbulb"
+    icon: "icon-shandian"
 
   - text: 立即加群！
     link: https://qm.qq.com/cgi-bin/qm/qr?k=bb3EshFima8HNooN5SuXHwDX6NUfrzT3&jump_from=webapi&authKey=Y4tY8Dgs6Lz88zGMPSqAp7aSkfUa8Vy1JFqT/Kry+/jpATMNt0xRcGD1/lZvmbTI
