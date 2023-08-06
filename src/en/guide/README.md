@@ -1,9 +1,9 @@
 ---
-title: 指南
+title: Guide
 icon: lightbulb
 ---
 
-## 功能亮点
+## Highlight Features
 
 ### Bar
 
