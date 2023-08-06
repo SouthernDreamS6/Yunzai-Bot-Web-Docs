@@ -1,5 +1,5 @@
 ---
-title: 主要功能与配置演示
+title: 快速上手
 index: false
 icon: laptop-code
 category:
@@ -8,10 +8,4 @@ category:
 
 ## 目录
 
-- [Markdown 展示](markdown.md)
-
-- [页面展示](page.md)
-
-- [禁用展示](disable.md)
-
-- [加密展示](encrypt.md)
+- [快速了解Yunzai崽机器人](About-Yunzai.md)
